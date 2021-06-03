@@ -11,7 +11,7 @@ class Dep {
    */
   sub (key, fn) {
     this.dep[key] = this.dep[key] || {}
-    let id = Symbol('11')
+    let id = Symbol()
     this.dep[key][id] = fn
     return id
   }
