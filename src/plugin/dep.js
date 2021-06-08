@@ -4,6 +4,7 @@ class Dep {
   }
 
   /**
+   * 
    * @description 添加订阅者
    * @param {*} key 需要订阅的字段名称
    * @param {*} fn 订阅方法的回调函数

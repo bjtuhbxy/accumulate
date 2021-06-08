@@ -68,6 +68,6 @@ let sub1 = store.sub('online_users', item => {
 // 删除订阅者
 // store.delete('online_users', sub1)
 // 测试更新数据
-console.log(store.state.online_users);
+console.log(store.state.online_users, '2');
 store.commit('changeOnlineUser', ['李四', '王五'])
-console.log(store.state.online_users);
+console.log(store.state.online_users, '3');
